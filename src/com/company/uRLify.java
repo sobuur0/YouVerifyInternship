@@ -6,7 +6,7 @@ class uRLify {
 
     static void substituteSpace(char[] string, int lengthOfString) {
         int spaceCount = 0;
-        int i = 0;
+        int i;
         int index;
         for (i=0; i<lengthOfString; i++) {
             if (string[i] == ' ') {
