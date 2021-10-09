@@ -24,9 +24,11 @@ class checkPermutation {
         System.out.print("Enter First String: ");
         Scanner firstString = new Scanner(System.in);
         String first = firstString.nextLine();
+
         System.out.print("Enter Second String: ");
         Scanner secondString = new Scanner(System.in);
         String second = secondString.nextLine();
+
         System.out.println(permutation(first, second));
     }
 }
