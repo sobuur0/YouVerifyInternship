@@ -1,4 +1,7 @@
 package com.company;
+
+import java.util.Scanner;
+
 class uRLify {
 
     static void substituteSpace(char[] string, int lengthOfString) {
@@ -32,8 +35,9 @@ class uRLify {
     }
 
     public static void main(String[] args) {
-        //Using the given Input
-        String string = "Mr John Smith         ";
+        Scanner input = new Scanner(System.in);
+        String string = input.nextLine();
+
         substituteSpace(string.toCharArray(), string.trim().length());
     }
 }
