@@ -12,8 +12,10 @@ class isUnique {
     }
     public static void main(String[] args) {
         System.out.print("Enter a set of String: ");
+
         Scanner checkString = new Scanner(System.in);
         String st = checkString.nextLine();
+
         if (isCharactersUnique(st)) {
             System.out.println("Has all unique characters");
         } else {
