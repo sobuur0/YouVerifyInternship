@@ -1,4 +1,7 @@
 package com.company;
+
+import java.util.Scanner;
+
 class palindromePermutation {
     static boolean aPermutaionOfPalindrome(String input) {
         int[] char_counts = new int[128];
@@ -13,8 +16,9 @@ class palindromePermutation {
     }
 
     public static void main(String[] args) {
-        //Using the given Input
-        String input = "tactcoa";
-        System.out.println(aPermutaionOfPalindrome(input));
+        Scanner input = new Scanner(System.in);
+        String str = input.nextLine();
+
+        System.out.println(aPermutaionOfPalindrome(str));
     }
 }
