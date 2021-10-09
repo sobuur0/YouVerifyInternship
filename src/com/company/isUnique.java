@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 class isUnique {
-    public static boolean isCharactersUnique(String ch) {
+    static boolean isCharactersUnique(String ch) {
         for (int i = 1; i < ch.length(); i++) {
             for (int j = 0; j < i; j++)
                 if (ch.charAt(i) == ch.charAt(j)) return false;
