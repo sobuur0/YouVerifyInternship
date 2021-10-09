@@ -13,7 +13,7 @@ class checkPermutation {
         return new String(content);
     }
 
-    static Boolean permutation(String first, String second) {
+    static boolean permutation(String first, String second) {
         if (first.length() != second.length()) {
             return false;
         }
