@@ -1,3 +1,7 @@
+/*
+    A function that performs basic string compression on a string input
+    using the counts of repeated characters
+ */
 package com.company;
 
 import java.util.Scanner;
