@@ -1,3 +1,7 @@
+/*
+    A function that accepts a string as an input and check if it is a permutation of a palindrome
+    "A palindrome is a word/phrase that is thesame when arranged forwards and backwards"
+ */
 package com.company;
 
 import java.util.Scanner;
