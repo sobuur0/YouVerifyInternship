@@ -1,3 +1,8 @@
+/*
+    A function that accepts two string input
+    and returns true if they are one edits from each other
+    and returns false otherwise
+ */
 package com.company;
 
 import java.util.Arrays;
@@ -16,7 +21,7 @@ class oneAway {
         Arrays.sort(word1);
         Arrays.sort(word2);
 
-        int length = word1.length >= word2.length ? word2.length : word1.length; //take the minimum length
+        int length = Math.min(word1.length, word2.length); //take the minimum length
 
         int falseCounter = 0;
         for (int i = 0; i < length; i++) {
