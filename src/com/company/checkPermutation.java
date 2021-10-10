@@ -1,3 +1,7 @@
+/*
+    A function that takes two strings as an input
+    and decides if one is a permutation of the other
+ */
 package com.company;
 
 import java.util.Arrays;
