@@ -1,3 +1,7 @@
+/*
+    An algorithm that determines if a string has all unique characters
+    without the usage of an additional data structure
+ */
 package com.company;
 
 import java.util.Scanner;
